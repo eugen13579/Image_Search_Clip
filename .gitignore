@@ -1,0 +1,60 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Dataset / images
+# =========================
+img/
+
+# =========================
+# Model checkpoints
+# =========================
+checkpoint/*.pt
+checkpoint/*.pth
+checkpoint/*.bin
+checkpoint/*.safetensors
+
+# =========================
+# Large generated embeddings
+# =========================
+data/**/image_embeddings.npy
+data/**/text_embeddings.npy
+
+# =========================
+# FAISS indexes
+# =========================
+data/**/*.faiss
+
+# =========================
+# Backup files
+# =========================
+*_backup.csv
+*.bak
+
+# =========================
+# Streamlit secrets
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
